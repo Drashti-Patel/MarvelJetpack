@@ -1,0 +1,18 @@
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+rootProject.name = "MarvelJet"
+include ':app'
+include ':core'
+include ':constants'
+include ':character'
+include ':character:character-datasource'
+include ':character:character-domain'
+include ':character:character-interactors'
+include ':character:ui-characterList'
+include ':character:ui-characterDetail'
+include ':components'
